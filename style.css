@@ -1,0 +1,61 @@
+body {
+    background: rgba(0,0, 0, .1);
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    background: white;
+    border: solid;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px; 
+    margin-top: 50px;  
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+.container {
+    display: grid;    
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-elements {
+    display: grid;
+    align-items: center;
+}
+
+.balls {
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+    
+}
+
+.ball {    
+    flex: content;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: solid;    
+    border-radius: 100%;    
+    background: white;    
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
